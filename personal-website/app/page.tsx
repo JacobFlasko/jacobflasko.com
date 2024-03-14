@@ -1,7 +1,8 @@
 import React from "react";
+import GlobalNavbar from "./components/Global/GlobalNavbar/GlobalNavbar";
 
 const page = () => {
-  return <div>Hello There</div>;
+  return <GlobalNavbar />;
 };
 
 export default page;
