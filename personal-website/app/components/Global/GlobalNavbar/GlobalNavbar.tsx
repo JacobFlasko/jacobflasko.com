@@ -47,15 +47,15 @@ const GlobalNavbar = () => {
         <a className="btn btn-ghost text-xl">Jacob Flasko</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 text-lg">
           <li>
-            <a>Item 1</a>
+            <Link href={"#"}>Skills</Link>
           </li>
           <li>
-            <a>Item 2</a>
+            <Link href={"#"}>Projects</Link>
           </li>
           <li>
-            <a>Item 3</a>
+            <Link href={"#"}>About</Link>
           </li>
         </ul>
       </div>

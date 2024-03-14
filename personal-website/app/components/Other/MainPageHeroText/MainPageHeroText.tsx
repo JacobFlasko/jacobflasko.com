@@ -44,15 +44,21 @@ const MainPageHeroText: React.FC = () => {
   const dynamicWordStyle = isEntering ? enteringStyle : exitingStyle;
 
   return (
-    <div
-      className="text-center relative overflow-hidden"
-      style={{ height: "24px" }}
-    >
-      <p style={{ position: "absolute", width: "100%" }}>
+    <div className="text-center relative text-5xl" style={{ height: "24px" }}>
+      <p
+        style={{
+          position: "absolute",
+          width: "100%",
+          whiteSpace: "nowrap",
+          left: 0,
+          right: 0,
+          margin: "0 auto", // Center the text horizontally
+        }}
+      >
         Let's create something{" "}
         <span
           className="text-primary"
-          style={{ ...dynamicWordStyle, transition: "opacity 500ms ease" }}
+          style={{ ...dynamicWordStyle, transition: "opacity 250ms ease" }}
         >
           {rotatingTerms[currentTerm]}
         </span>
