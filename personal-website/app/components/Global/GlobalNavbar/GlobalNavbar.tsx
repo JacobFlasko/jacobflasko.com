@@ -10,7 +10,7 @@ const githubLink = "https://github.com/JacobFlasko";
 
 const GlobalNavbar = () => {
   return (
-    <div className="navbar backdrop-blur-2xl">
+    <div className="fixed navbar backdrop-blur-2xl">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
