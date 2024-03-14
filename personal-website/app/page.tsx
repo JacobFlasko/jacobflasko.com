@@ -1,24 +1,49 @@
 import React from "react";
 import GlobalNavbar from "./components/Global/GlobalNavbar/GlobalNavbar";
 import MainPageHeroText from "./components/Other/MainPageHeroText/MainPageHeroText";
+import Image from "next/image";
 
 const Page = () => {
   return (
     <>
       <GlobalNavbar />
       <section className="flex justify-center items-center w-full h-screen flex-col">
-        <div className="w-full flex justify-around">
-          <img src="3" alt="#" />
-          <img src="3" alt="#" />
-          <img src="3" alt="#" />
+        <div className="w-full flex justify-around m-48">
+          <Image
+            src={""}
+            alt={"Javascript"}
+            className="shadow-xl w-36 h-36 shadow-yellow-400"
+          />
+          <Image
+            src={""}
+            alt={"Javascript"}
+            className="shadow-xl w-36 h-36 shadow-yellow-400"
+          />
+          <Image
+            src={""}
+            alt={"Javascript"}
+            className="shadow-xl w-36 h-36 shadow-yellow-400"
+          />
         </div>
-        <div className="w-full m-56">
+        <div className="w-full">
           <MainPageHeroText />
         </div>
-        <div className="w-full flex justify-around">
-          <img src="3" alt="#" />
-          <img src="3" alt="#" />
-          <img src="3" alt="#" />
+        <div className="w-full flex justify-around m-48">
+          <Image
+            src={""}
+            alt={"Javascript"}
+            className="shadow-xl w-36 h-36 shadow-yellow-400"
+          />
+          <Image
+            src={""}
+            alt={"Javascript"}
+            className="shadow-xl w-36 h-36 shadow-yellow-400"
+          />
+          <Image
+            src={""}
+            alt={"Javascript"}
+            className="shadow-xl w-36 h-36 shadow-yellow-400"
+          />
         </div>
       </section>
       <section className="w-auto h-screen bg-red-500"></section>
