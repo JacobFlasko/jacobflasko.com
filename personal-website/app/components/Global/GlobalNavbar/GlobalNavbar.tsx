@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { VscGithub } from "react-icons/vsc";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -60,10 +60,10 @@ const GlobalNavbar = () => {
         </ul>
       </div>
       <div className="navbar-end shadow-indigo-500 ">
-        <Link className="mx-2 hover:animate-bounce" href={githubLink}>
+        <Link className="mx-2" href={githubLink}>
           <VscGithub size={48} />
         </Link>
-        <Link className="mx-2 hover:animate-bounce" href={linkedinLink}>
+        <Link className="mx-2" href={linkedinLink}>
           <FaLinkedin size={48} />
         </Link>
       </div>
