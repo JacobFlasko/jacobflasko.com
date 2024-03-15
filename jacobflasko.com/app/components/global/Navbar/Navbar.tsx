@@ -30,28 +30,30 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link href="#">About</Link>
+                <Link href="/About">About</Link>
               </li>
               <li>
-                <Link href="#">Skills</Link>
+                <Link href="/Skills">Skills</Link>
               </li>
               <li>
-                <Link href="#">Contact</Link>
+                <Link href="/Contact">Contact</Link>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Jacob Flasko</a>
+          <Link className="btn btn-ghost text-xl" href="/">
+            Jacob Flasko
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-lg bold">
             <li>
-              <Link href="#">About</Link>
+              <Link href="/About">About</Link>
             </li>
             <li>
-              <Link href="#">Skills</Link>
+              <Link href="/Skills">Skills</Link>
             </li>
             <li>
-              <Link href="#">Contact</Link>
+              <Link href="/Contact">Contact</Link>
             </li>
           </ul>
         </div>
