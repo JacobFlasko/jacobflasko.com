@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <section className="w-full h-auto bg-gray-50 flex justify-center items-center flex-col space-y-8">
+      <section className="w-full h-auto  flex justify-center items-center flex-col space-y-8">
         <div className="text-4xl text-bold pt-8 drop-shadow">2004</div>
         <div className="flex justify-around items-center w-full">
           <Image

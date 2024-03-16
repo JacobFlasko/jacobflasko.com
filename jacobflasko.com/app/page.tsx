@@ -19,15 +19,15 @@ const page = () => {
         <div className="flex space-x-16 md:space-x-32 lg:space-x-48 xl:space-x-72">
           <Image
             src="/Home/javascriptIcon.png"
-            width={175}
-            height={175}
+            width={150}
+            height={150}
             alt="Javascript Icon"
             className={`shadow-2xl shadow-yellow-300 -rotate-12 ${styles.bump}`}
           />
           <Image
             src="/Home/git_icon.png"
-            width={175}
-            height={175}
+            width={150}
+            height={150}
             alt="Git Icon"
             className={`drop-shadow-[0_35px_35px_rgba(255,64,64,0.9)]  ${styles.bump_delay}`}
           />
@@ -36,8 +36,8 @@ const page = () => {
           >
             <Image
               src="/Home/react_icon.png"
-              width={175}
-              height={175}
+              width={150}
+              height={150}
               alt="React Icon"
             />
           </span>
@@ -46,22 +46,22 @@ const page = () => {
         <div className="flex space-x-16 md:space-x-32 lg:space-x-48 xl:space-x-72">
           <Image
             src="/Home/java_icon.png"
-            width={175}
-            height={175}
+            width={150}
+            height={150}
             alt="Java Icon"
             className={`drop-shadow-[0_45px_45px_rgba(35,124,255,0.65)]  rotate-12 ${styles.bump_delay}`}
           />
           <Image
             src="/Home/python-logo-only.png"
-            width={175}
-            height={175}
+            width={150}
+            height={150}
             alt="Python Icon"
             className={`drop-shadow-[0_45px_45px_rgba(255,249,75,0.65)]  ${styles.bump}`}
           />
           <Image
             src="/Home/html5_icon.png"
-            width={175}
-            height={175}
+            width={150}
+            height={150}
             alt="HTML 5 Icon"
             className={`drop-shadow-[0_45px_45px_rgba(255,64,64,0.65)] -rotate-12 ${styles.bump_delay}`}
           />
