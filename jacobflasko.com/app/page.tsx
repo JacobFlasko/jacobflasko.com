@@ -8,6 +8,7 @@ import Footer from "./components/global/Footer/Footer";
 import styles from "./styles.module.css";
 //Images
 import { FaReact } from "react-icons/fa";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -31,7 +32,7 @@ const page = () => {
             className={`shadow-2xl shadow-red-500  ${styles.bump_delay}`}
           />
           <span
-            className={`shadow-2xl rotate-12 shadow-blue-300 rounded-full bg-sky-500/0 ${styles.bump_delay}`}
+            className={`shadow-2xl rotate-12 shadow-blue-300 rounded-full bg-sky-500/0 ${styles.bump}`}
           >
             <Image
               src="/Home/react_icon.png"
@@ -67,14 +68,46 @@ const page = () => {
         </div>
       </section>
       {/*Second Section */}
-      <section className="w-full h-screen bg-gray-50 snap-center flex justify-center items-center">
+      <section className="w-full h-screen bg-gray-50 snap-center flex justify-center items-center space-x-48">
         <Image
           src={"/Home/programmer_room.svg"}
           alt={"Programmer At Work"}
           width={750}
           height={750}
         />
+        <div className="flex flex-col space-y-4">
+          <h1 className="text-5xl">Hi, Im Jacob</h1>
+          <p className="text-xl">
+            I am a software developer based in{" "}
+            <Link
+              target="_blank"
+              href="https://www.google.com/maps/place/Pittsburgh,+PA/@40.4314699,-80.0629009,12z/data=!3m1!4b1!4m6!3m5!1s0x8834f16f48068503:0x8df915a15aa21b34!8m2!3d40.4406248!4d-79.9958864!16zL20vMDY4cDI?entry=ttu"
+              className="text-indigo-700 font-bold"
+            >
+              Pittsburgh, PA
+            </Link>
+          </p>
+          <p className="text-xl">
+            To learn more about me, visit{" "}
+            <Link className="text-indigo-700 font-bold" href={"/About"}>
+              About
+            </Link>
+          </p>
+          <p className="text-xl">
+            To view a catalogue of my skills, visit{" "}
+            <Link className="text-indigo-700 font-bold" href={"/Skills"}>
+              Skills
+            </Link>
+          </p>
+          <p className="text-xl">
+            To view my contact information, visit{" "}
+            <Link className="text-indigo-700 font-bold" href={"/Contact"}>
+              Contact
+            </Link>
+          </p>
+        </div>
       </section>
+      {/*Third Section */}
       <section className="w-full h-screen snap-center flex justify-center items-center">
         <Image
           src={"/Home/programmer_room.svg"}

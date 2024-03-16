@@ -26,7 +26,7 @@ const HeroText: React.FC = () => {
         setCurrentTerm((prevTerm) => (prevTerm + 1) % rotatingTerms.length);
         setIsEntering(true);
       }, 500); // Matches the duration of the exit animation
-    }, 3000); // Total duration before changing the term, including animation time
+    }, 2_500); // Total duration before changing the term, including animation time
 
     return () => clearInterval(intervalId);
   }, []);
