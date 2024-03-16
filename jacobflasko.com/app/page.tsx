@@ -25,14 +25,14 @@ const page = () => {
             className={`shadow-2xl shadow-yellow-300 -rotate-12 ${styles.bump}`}
           />
           <Image
-            src="/Home/github_icon.png"
+            src="/Home/git_icon.png"
             width={175}
             height={175}
-            alt="Github Icon"
-            className={`shadow-2xl shadow-red-500  ${styles.bump_delay}`}
+            alt="Git Icon"
+            className={`drop-shadow-[0_35px_35px_rgba(255,64,64,0.9)]  ${styles.bump_delay}`}
           />
           <span
-            className={`shadow-2xl rotate-12 shadow-blue-300  ${styles.bump}`}
+            className={`drop-shadow-[0_45px_45px_rgba(35,124,255,0.65)] rotate-12 shadow-blue-300  ${styles.bump}`}
           >
             <Image
               src="/Home/react_icon.png"
@@ -45,25 +45,25 @@ const page = () => {
         <HeroText />
         <div className="flex space-x-16 md:space-x-32 lg:space-x-48 xl:space-x-72">
           <Image
-            src=""
+            src="/Home/java_icon.png"
             width={175}
             height={175}
-            alt="HTML 5 Icon"
-            className={`shadow-2xl shadow-red-300 rotate-12 ${styles.bump_delay}`}
+            alt="Java Icon"
+            className={`drop-shadow-[0_45px_45px_rgba(35,124,255,0.65)]  rotate-12 ${styles.bump_delay}`}
           />
           <Image
-            src=""
+            src="/Home/python-logo-only.png"
             width={175}
             height={175}
             alt="Python Icon"
-            className={`shadow-2xl shadow-yellow-300  ${styles.bump}`}
+            className={`drop-shadow-[0_45px_45px_rgba(255,249,75,0.65)]  ${styles.bump}`}
           />
           <Image
-            src=""
+            src="/Home/html5_icon.png"
             width={175}
             height={175}
-            alt="NextJS Icon"
-            className={`shadow-2xl shadow-black -rotate-12 ${styles.bump_delay}`}
+            alt="HTML 5 Icon"
+            className={`drop-shadow-[0_45px_45px_rgba(255,64,64,0.65)] -rotate-12 ${styles.bump_delay}`}
           />
         </div>
       </section>
