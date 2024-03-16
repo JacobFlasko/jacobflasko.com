@@ -12,6 +12,18 @@
   }
 }
 
+@keyframes bumpTwo {
+  0% {
+    scale: 1.25;
+  }
+  50% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.25;
+  }
+}
+
 .bump {
   animation-duration: 5s;
   animation-name: bump;
@@ -19,8 +31,7 @@
 }
 
 .bump_delay {
-  animation-delay: 2.5s;
   animation-duration: 5s;
-  animation-name: bump;
+  animation-name: bumpTwo;
   animation-iteration-count: infinite;
 }
