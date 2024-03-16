@@ -1,0 +1,26 @@
+/*Basic Animation and other styles unavaliable in Tailwind*/
+
+@keyframes bump {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.25;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+.bump {
+  animation-duration: 5s;
+  animation-name: bump;
+  animation-iteration-count: infinite;
+}
+
+.bump_delay {
+  animation-delay: 2.5s;
+  animation-duration: 5s;
+  animation-name: bump;
+  animation-iteration-count: infinite;
+}
