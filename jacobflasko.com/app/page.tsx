@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <>
+    <div className="snap-mandatory">
       <Navbar />
       {/* First Section for hero text and icons */}
-      <section className="flex flex-col space-y-24 lg:space-y-36 h-screen w-full justify-center items-center">
+      <section className="flex flex-col space-y-24 lg:space-y-36 h-screen w-full justify-center items-center snap-center">
         <div className="flex space-x-16 md:space-x-32 lg:space-x-48 xl:space-x-72">
           <Image
             src=""
@@ -57,7 +57,9 @@ const page = () => {
           />
         </div>
       </section>
-    </>
+      {/*Second Section */}
+      <section className="w-full h-screen bg-red-500 snap-center"></section>
+    </div>
   );
 };
 
