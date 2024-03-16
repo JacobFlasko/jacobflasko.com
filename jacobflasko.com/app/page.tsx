@@ -77,7 +77,7 @@ const page = () => {
           className="shadow-2xl p-5"
         />
         <div className="flex flex-col space-y-4">
-          <h1 className="text-5xl">Hi, Im Jacob</h1>
+          <h1 className="text-5xl">Hi, I'm Jacob</h1>
           <p className="text-xl">
             I am a software developer based in{" "}
             <Link
@@ -145,8 +145,8 @@ const page = () => {
           <p className="text-xl">Thanks for Visiting!</p>
         </div>{" "}
         <Image
-          src={"/Home/programmer_room.svg"}
-          alt={"Programmer At Work"}
+          src={"Home/web_design_icon.svg"}
+          alt={"Website Tech Icon"}
           width={750}
           height={750}
         />
