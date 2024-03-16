@@ -3,6 +3,13 @@ import Navbar from "../components/global/Navbar/Navbar";
 import Footer from "../components/global/Footer/Footer";
 import Image from "next/image";
 
+//Metadata and Title
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+};
+
 const page = () => {
   return (
     <div>
