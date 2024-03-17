@@ -3,7 +3,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="w-2/3 h-4/5 bg-gray-50 flex flex-col space-y-12 shadow-xl rounded-lg justify-center items-center">
+    <div className="w-4/5 lg:w-2/3 h-4/5 bg-gray-50 flex flex-col space-y-12 shadow-xl rounded-lg justify-center items-center">
       <div>
         <h1 className="font-bold text-md lg:text-3xl">Contact Me!</h1>
       </div>

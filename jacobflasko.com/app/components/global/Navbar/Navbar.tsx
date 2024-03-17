@@ -40,7 +40,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link className="btn btn-ghost text-xl" href="/">
+          <Link className="btn btn-ghost text-md lg:text-xl" href="/">
             Jacob Flasko
           </Link>
         </div>
