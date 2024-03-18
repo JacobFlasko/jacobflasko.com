@@ -44,10 +44,30 @@ const page = () => {
           />
         </div>
         <div className="flex flex-wrap justify-around w-full pt-10">
-          <SkillCard iconSrc={""} text={"Base Text"} />
-          <SkillCard iconSrc={""} text={"Hello There"} />
-          <SkillCard iconSrc={""} text={"Hello There"} />
-          <SkillCard iconSrc={""} text={"Hello There"} />
+          <SkillCard
+            iconSrc={"/Skills/html5_icon.png"}
+            text={
+              "Although HTML is not a programming language, HTML and the tools derived from it remain some of my favorite to work with in building websites and apps."
+            }
+          />
+          <SkillCard
+            iconSrc={"/Skills/flask.svg"}
+            text={
+              "Flask is great, not because it is a highly-capable microframework with extensive customization and capabilities written in an easy-to-use language. But because it sounds like my last name."
+            }
+          />
+          <SkillCard
+            iconSrc={"/Skills/github-mark.png"}
+            text={
+              "Github is the light at the end of the tunnel, the warm bed to return to at the end of the long day. The cloud repository that prevents me from losing days and weeks of work. I love github."
+            }
+          />
+          <SkillCard
+            iconSrc={"/Skills/react_icon.png"}
+            text={
+              "I rarely say anything good about facebook, however if one good thing has come out of Facebook, it is React. Of all the Javascript Frameworks, React Is my #1."
+            }
+          />
         </div>
         <div className="flex flex-wrap justify-around w-full pt-10">
           <SkillCard iconSrc={""} text={"Base Text"} />
