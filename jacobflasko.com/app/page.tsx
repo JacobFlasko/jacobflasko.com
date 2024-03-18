@@ -26,10 +26,10 @@ const page = () => {
           />
           <Image
             src="/Home/git_icon.png"
-            width={150}
-            height={150}
+            width={175}
+            height={175}
             alt="Git Icon"
-            className={`drop-shadow-[0_35px_35px_rgba(255,64,64,0.9)]  ${styles.bump_delay}`}
+            className={`drop-shadow-[0_35px_35px_rgba(248,19,12,1)]  ${styles.bump_delay}`}
           />
           <span
             className={`drop-shadow-[0_45px_45px_rgba(35,124,255,0.65)] rotate-12 shadow-blue-300  ${styles.bump}`}
