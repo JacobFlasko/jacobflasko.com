@@ -19,10 +19,11 @@ const page = () => {
           <div className="text-4xl font-bold">2004</div>
           <div className="flex flex-col lg:flex-row justify-around items-center w-full">
             <Image
-              src={"/Home/react_icon.png"}
+              src={"/About/2004.png"}
               alt={""}
               width={200}
               height={200}
+              className="px-5"
             />
             <div className="text-lg lg:text-xl leading-relaxed">
               The year 2004 was a year quite unlike any other. NASA successfully
@@ -49,10 +50,11 @@ const page = () => {
               enjoying programming more every day.
             </div>
             <Image
-              src={"/Home/react_icon.png"}
+              src={"/About/2022.png"}
               alt={""}
               width={200}
               height={200}
+              className="px-5"
             />
           </div>
         </section>
@@ -64,10 +66,11 @@ const page = () => {
           <div className="text-4xl font-bold">2023</div>
           <div className="flex flex-col lg:flex-row justify-around items-center w-full">
             <Image
-              src={"/Home/react_icon.png"}
+              src={"/About/2023.png"}
               alt={""}
               width={200}
               height={200}
+              className="px-5"
             />
             <div className="text-lg lg:text-xl leading-relaxed">
               I believe that 2023 was a year in my life like no other. I learned
@@ -83,7 +86,7 @@ const page = () => {
 
           {/* Fourth Section */}
           <div className="text-4xl font-bold">2024</div>
-          <div className="flex flex-col lg:flex-row justify-around items-center w-full">
+          <div className="flex flex-col lg:flex-row justify-around items-center w-full pb-8">
             <div className="text-lg lg:text-xl leading-relaxed lg:order-2">
               2024 has been an interesting year so far. As I finish my
               associate's degree in Software Development, I am beginning to look
@@ -96,10 +99,11 @@ const page = () => {
               capable of fulfilling various roles.
             </div>
             <Image
-              src={"/Home/react_icon.png"}
+              src={"/About/2024.png"}
               alt={""}
               width={200}
               height={200}
+              className="px-5"
             />
           </div>
         </section>
