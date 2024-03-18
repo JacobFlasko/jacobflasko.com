@@ -19,7 +19,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ iconSrc, text }) => {
         />
       </div>
       <div className="p-4">
-        <p className="text">{text}</p>
+        <p className="text text-left">{text}</p>
       </div>
     </div>
   );
