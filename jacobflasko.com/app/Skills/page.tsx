@@ -69,11 +69,31 @@ const page = () => {
             }
           />
         </div>
-        <div className="flex flex-wrap justify-around w-full pt-10">
-          <SkillCard iconSrc={""} text={"Base Text"} />
-          <SkillCard iconSrc={""} text={"Hello There"} />
-          <SkillCard iconSrc={""} text={"Hello There"} />
-          <SkillCard iconSrc={""} text={"Hello There"} />
+        <div className="flex flex-wrap justify-around w-full pt-10 pb-10">
+          <SkillCard
+            iconSrc={"/Skills/tailwindcss_logo.svg"}
+            text={
+              "Althouhg writing thousands of lines of CSS is great, I personally prefer to use a CSS Library such as Tailwind. Thanks to Libraries like Tailwind, I can quickly create quality and responsive layouts."
+            }
+          />
+          <SkillCard
+            iconSrc={"/Skills/icons8-watermelon-100.png"}
+            text={
+              "Selenium. That is what this card represents. But since Seleniums logo is terrible, here is a melon slice. When I first began programming, a topic that greatly interested me was automation, and selenuim does just that."
+            }
+          />
+          <SkillCard
+            iconSrc={"/Skills/next-js.svg"}
+            text={
+              "While React is my Favorite Javascript Framework, Next is my Favorite React Framework. Where React falls short, Next leaps high, I guess 🤷."
+            }
+          />
+          <SkillCard
+            iconSrc={"/Skills/mysql_logo.svg"}
+            text={
+              "Of the many Database Management Systems in the market, I have found MySQL to be the most agreeable and useable of them all. I used to have difficulty with databases, but the dolphin helped me overcome my fear."
+            }
+          />
         </div>
       </section>
       <Footer />
