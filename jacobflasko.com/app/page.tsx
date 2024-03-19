@@ -68,55 +68,58 @@ const page = () => {
         </div>
       </section>
       {/*Second Section */}
-      <section className="w-full h-screen bg-gray-50 snap-center flex justify-center items-center space-x-48">
-        <Image
-          src={"/Home/programmer_room.svg"}
-          alt={"Programmer At Work"}
-          width={750}
-          height={750}
-          className="shadow-2xl p-5"
-        />
-        <div className="flex flex-col space-y-4">
-          <h1 className="text-5xl">Hi, I'm Jacob</h1>
-          <p className="text-xl">
+      <section className="w-full h-screen bg-gray-50 snap-center flex flex-col-reverse justify-center items-center space-y-8 md:flex-row md:space-x-48">
+        <div className="flex flex-col space-y-4 md:items-start md:text-left md:space-y-4">
+          <h1 className="text-3xl md:text-5xl">Hi, I'm Jacob</h1>
+          <p className="text-sm md:text-xl">
             I am a software developer based in{" "}
-            <Link
+            <a
               target="_blank"
               href="https://www.google.com/maps/place/Pittsburgh,+PA/@40.4314699,-80.0629009,12z/data=!3m1!4b1!4m6!3m5!1s0x8834f16f48068503:0x8df915a15aa21b34!8m2!3d40.4406248!4d-79.9958864!16zL20vMDY4cDI?entry=ttu"
               className="text-indigo-700 font-bold hover:underline"
             >
               Pittsburgh, PA
-            </Link>
+            </a>
           </p>
-          <p className="text-xl">
+          <p className="text-sm md:text-xl">
             To learn more about me, visit{" "}
-            <Link
+            <a
               className="text-indigo-700 font-bold hover:underline"
               href={"/About"}
             >
               About
-            </Link>
+            </a>
           </p>
-          <p className="text-xl">
+          <p className="text-sm md:text-xl">
             To view a catalogue of my skills, visit{" "}
-            <Link
+            <a
               className="text-indigo-700 font-bold hover:underline"
               href={"/Skills"}
             >
               Skills
-            </Link>
+            </a>
           </p>
-          <p className="text-xl">
+          <p className="text-sm md:text-xl">
             To view my contact information, visit{" "}
-            <Link
+            <a
               className="text-indigo-700 font-bold hover:underline"
               href={"/Contact"}
             >
               Contact
-            </Link>
+            </a>
           </p>
         </div>
+        <div className="flex justify-center items-center">
+          <Image
+            src={"/Home/programmer_room.svg"}
+            alt={"Programmer At Work"}
+            width={500}
+            height={500}
+            className="shadow-2xl p-5 md:w-auto md:h-3/4 mb-10"
+          />
+        </div>
       </section>
+
       {/*Third Section */}
       <section className="w-full h-screen snap-center flex flex-col-reverse justify-center items-center space-y-8 md:flex-row md:space-x-48">
         <div className="flex flex-col items-center justify-center space-y-4 md:items-start md:text-left md:space-y-4">
