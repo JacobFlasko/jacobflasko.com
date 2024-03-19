@@ -2,11 +2,12 @@ import React from "react";
 import { GrLinkedin } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
+import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 
 const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar light:bg-base-100 dark:bg-indigo-500">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -58,6 +59,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
+          {/*Theme Switch*/}
+
+          {/* <ThemeSwitch /> */}
           {/*Link to Linkedin*/}
           <Link
             href="https://www.linkedin.com/in/jacob-flasko-a52a3a244/"
