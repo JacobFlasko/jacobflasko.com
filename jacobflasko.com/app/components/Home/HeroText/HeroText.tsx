@@ -50,7 +50,7 @@ const HeroText: React.FC = () => {
         }}
         className="text-xl md:text-4xl lg:text-5xl whitespace-nowrap"
       >
-        Let's create something{" "}
+        Lets create something{" "}
         <span
           className="text-primary"
           style={{

@@ -75,7 +75,7 @@ const page = () => {
       {/*Second Section */}
       <section className="w-full h-screen bg-gray-50 snap-center flex flex-col-reverse justify-center items-center space-y-8 md:flex-row md:space-x-48 ">
         <div className="flex flex-col space-y-4 md:items-start md:text-left md:space-y-4">
-          <h1 className="text-3xl md:text-5xl">Hi, I'm Jacob</h1>
+          <h1 className="text-3xl md:text-5xl">Hi, Im Jacob</h1>
           <p className="text-sm md:text-xl">
             I am a software developer based in{" "}
             <a

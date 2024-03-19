@@ -89,7 +89,7 @@ const page = () => {
           <div className="flex flex-col lg:flex-row justify-around items-center w-full pb-8">
             <div className="text-lg lg:text-xl leading-relaxed lg:order-2">
               2024 has been an interesting year so far. As I finish my
-              associate's degree in Software Development, I am beginning to look
+              associates degree in Software Development, I am beginning to look
               for new opportunities to learn and grow. I believe experience is
               the best teacher and because of this, I am currently in search of
               my first job. Although I intend to continue to study in the
