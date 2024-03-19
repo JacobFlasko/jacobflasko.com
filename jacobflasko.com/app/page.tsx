@@ -118,39 +118,45 @@ const page = () => {
         </div>
       </section>
       {/*Third Section */}
-      <section className="w-full h-screen snap-center flex justify-center items-center space-x-48">
-        <div className="flex flex-col space-y-4">
-          <h1 className="text-5xl">About this Website</h1>
-          <p className="text-xl">
+      <section className="w-full h-screen snap-center flex flex-col-reverse justify-center items-center space-y-8 md:flex-row md:space-x-48">
+        <div className="flex flex-col items-center justify-center space-y-4 md:items-start md:text-left md:space-y-4">
+          <h1 className="text-3xl md:text-5xl">About this Website</h1>
+          <p className="text-sm md:text-xl">
             This Website was built using{" "}
             <span className="font-bold text-indigo-700">NextJS</span>
           </p>
-          <p className="text-xl">
+          <p className="text-sm md:text-xl">
             Components were developed in{" "}
             <span className="font-bold text-indigo-700">ReactJS</span>
           </p>
-          <p className="text-xl">
-            Custom animations were devloped in{" "}
+          <p className="text-sm md:text-xl">
+            Custom animations were developed in{" "}
             <span className="font-bold text-indigo-700">CSS</span>
           </p>
-          <p className="text-xl ">
-            The source code is avaliable on my{" "}
-            <Link
+          <p className="text-sm md:text-xl">
+            The source code is available on my{" "}
+            <a
               className="text-indigo-700 font-bold hover:underline"
               href={"https://github.com/JacobFlasko"}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github
-            </Link>
+            </a>
           </p>
-          <p className="text-xl">Thanks for Visiting!</p>
-        </div>{" "}
-        <Image
-          src={"Home/web_design_icon.svg"}
-          alt={"Website Tech Icon"}
-          width={750}
-          height={750}
-        />
+          <p className="text-sm md:text-xl">Thanks for Visiting!</p>
+        </div>
+        <div className="flex justify-center items-center">
+          <Image
+            src={"Home/web_design_icon.svg"}
+            alt={"Website Tech Icon"}
+            width={500}
+            height={500}
+            className="pb-10 w-3/4 h-auto md:w-3/4 md:h-auto lg:w-full lg:h-auto"
+          />
+        </div>
       </section>
+
       <Footer />
     </div>
   );
