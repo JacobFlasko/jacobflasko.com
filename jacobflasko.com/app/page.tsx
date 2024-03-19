@@ -29,8 +29,9 @@ const page = () => {
           <span className="w-24 h-24 md:w-30 md:h-30 lg:h-40 lg:w-40 xl:w-44 xl:h-44 drop-shadow-[0_35px_35px_rgba(248,19,12,0.5)]">
             <Image
               src="/Home/git_icon.png"
-              fill={true}
               alt="Git Icon"
+              width={150}
+              height={150}
               className={`${styles.bump_delay}`}
             />
           </span>
