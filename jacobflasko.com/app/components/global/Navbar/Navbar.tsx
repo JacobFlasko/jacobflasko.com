@@ -2,7 +2,6 @@ import React from "react";
 import { GrLinkedin } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
-import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 
 const Navbar = () => {
   return (

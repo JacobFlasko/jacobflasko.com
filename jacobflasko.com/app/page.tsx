@@ -80,7 +80,7 @@ const page = () => {
             alt={"Programmer At Work"}
             width={400}
             height={400}
-            className="pb-10 w-3/4 h-auto md:w-3/4 md:h-auto lg:w-11/12 lg:h-auto shadow-2xl mt-10"
+            className="pb-10 w-3/4 h-auto md:w-3/4 md:h-auto lg:w-1/2 lg:h-auto 2xl:w-11/12 2xl:h-auto shadow-2xl mt-10"
           />
         </div>
         <div className="flex flex-col space-y-4 md:items-start md:text-left md:space-y-4">
