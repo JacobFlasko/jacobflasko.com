@@ -15,60 +15,65 @@ const page = () => {
     <div className="snap-mandatory">
       <Navbar />
       {/* First Section for hero text and icons */}
-      <section className="flex flex-col space-y-24 lg:space-y-36 h-screen w-full justify-center items-center snap-center ">
-        <div className="flex space-x-16 md:space-x-32 lg:space-x-48 xl:space-x-72">
-          <Image
-            src="/Home/javascriptIcon.png"
-            width={150}
-            height={150}
-            alt="Javascript Icon"
-            className={`shadow-2xl shadow-yellow-300 -rotate-12 ${styles.bump}`}
-          />
-          <Image
-            src="/Home/git_icon.png"
-            width={175}
-            height={175}
-            alt="Git Icon"
-            className={`drop-shadow-[0_35px_35px_rgba(248,19,12,1)]  ${styles.bump_delay}`}
-          />
-          <span
-            className={`drop-shadow-[0_45px_45px_rgba(35,124,255,0.65)] rotate-12 shadow-blue-300  ${styles.bump}`}
-          >
+      <section className="flex flex-col space-y-24 lg:space-y-36 h-screen w-full justify-center items-center snap-center">
+        <div className="flex justify-center items-center space-x-8 md:space-x-24 lg:space-x-28 xl:space-x-64">
+          <span className="w-20 h-20 md:w-30 md:h-30 lg:h-40 lg:w-40 xl:w-44 xl:h-44 shadow-yellow-300]">
             <Image
-              src="/Home/react_icon.png"
+              src="/Home/javascriptIcon.png"
               width={150}
               height={150}
-              alt="React Icon"
+              alt="Javascript Icon"
+              className={`shadow-2xl shadow-yellow-300 -rotate-12 ${styles.bump}`}
             />
+          </span>
+          <span className="w-24 h-24 md:w-30 md:h-30 lg:h-40 lg:w-40 xl:w-44 xl:h-44 drop-shadow-[0_35px_35px_rgba(248,19,12,1)]">
+            <Image
+              src="/Home/git_icon.png"
+              fill={true}
+              alt="Git Icon"
+              className={`${styles.bump_delay}`}
+            />
+          </span>
+          <span
+            className={`w-20 h-20 md:w-30 md:h-30 lg:h-40 lg:w-40 xl:w-44 xl:h-44 drop-shadow-[0_45px_45px_rgba(35,124,255,0.65)] rotate-12 shadow-blue-300  ${styles.bump}`}
+          >
+            <Image src="/Home/react_icon.png" fill={true} alt="React Icon" />
           </span>
         </div>
         <HeroText />
-        <div className="flex space-x-16 md:space-x-32 lg:space-x-48 xl:space-x-72">
-          <Image
-            src="/Home/java_icon.png"
-            width={150}
-            height={150}
-            alt="Java Icon"
-            className={`drop-shadow-[0_45px_45px_rgba(35,124,255,0.65)]  rotate-12 ${styles.bump_delay}`}
-          />
-          <Image
-            src="/Home/python-logo-only.png"
-            width={150}
-            height={150}
-            alt="Python Icon"
-            className={`drop-shadow-[0_45px_45px_rgba(255,249,75,0.65)]  ${styles.bump}`}
-          />
-          <Image
-            src="/Home/html5_icon.png"
-            width={150}
-            height={150}
-            alt="HTML 5 Icon"
-            className={`drop-shadow-[0_45px_45px_rgba(255,64,64,0.65)] -rotate-12 ${styles.bump_delay}`}
-          />
+        <div className="flex justify-center items-center space-x-4 md:space-x-8 lg:space-x-36 xl:space-x-64">
+          <span className="w-20 h-20 md:w-30 md:h-30 lg:h-40 lg:w-40 xl:w-44 xl:h-44">
+            <Image
+              src="/Home/java_icon.png"
+              width={150}
+              height={150}
+              alt="Java Icon"
+              className={`drop-shadow-[0_45px_45px_rgba(35,124,255,0.65)]  rotate-12 ${styles.bump_delay}`}
+            />
+          </span>
+          <span className="w-20 h-20 md:w-30 md:h-30 lg:h-40 lg:w-40 xl:w-44 xl:h-44">
+            <Image
+              src="/Home/python-logo-only.png"
+              width={150}
+              height={150}
+              alt="Python Icon"
+              className={`drop-shadow-[0_45px_45px_rgba(255,249,75,0.65)]  ${styles.bump}`}
+            />
+          </span>
+          <span className="w-20 h-20 md:w-30 md:h-30 lg:h-40 lg:w-40 xl:w-44 xl:h-44">
+            <Image
+              src="/Home/html5_icon.png"
+              width={150}
+              height={150}
+              alt="HTML 5 Icon"
+              className={`drop-shadow-[0_45px_45px_rgba(255,64,64,0.65)] -rotate-12 ${styles.bump_delay}`}
+            />
+          </span>
         </div>
       </section>
+
       {/*Second Section */}
-      <section className="w-full h-screen bg-gray-50 snap-center flex flex-col-reverse justify-center items-center space-y-8 md:flex-row md:space-x-48">
+      <section className="w-full h-screen bg-gray-50 snap-center flex flex-col-reverse justify-center items-center space-y-8 md:flex-row md:space-x-48 ">
         <div className="flex flex-col space-y-4 md:items-start md:text-left md:space-y-4">
           <h1 className="text-3xl md:text-5xl">Hi, I'm Jacob</h1>
           <p className="text-sm md:text-xl">
@@ -155,7 +160,7 @@ const page = () => {
             alt={"Website Tech Icon"}
             width={500}
             height={500}
-            className="pb-10 w-3/4 h-auto md:w-3/4 md:h-auto lg:w-full lg:h-auto"
+            className="pb-10 w-3/4 h-auto md:w-3/4 md:h-auto lg:w-11/12 lg:h-auto"
           />
         </div>
       </section>
