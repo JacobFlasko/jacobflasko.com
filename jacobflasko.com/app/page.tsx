@@ -75,13 +75,13 @@ const page = () => {
 
       {/*Second Section */}
       <section className="w-full h-screen bg-gray-50 snap-center flex flex-col-reverse justify-center items-center space-y-8 md:flex-row md:space-x-48 ">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center h-auto w-1/2 xl:w-1/4">
           <Image
-            src={"/Home/programmer_room.svg"}
+            src={"/Home/personalHeadshot.png"}
             alt={"Programmer At Work"}
-            width={400}
-            height={400}
-            className="pb-10 w-3/4 h-auto md:w-3/4 md:h-auto lg:w-1/2 lg:h-auto 2xl:w-11/12 2xl:h-auto shadow-2xl mt-10"
+            width={600}
+            height={600}
+            className="pt-10 w-full h-auto md:w-3/4 md:h-auto lg:w-1/2 lg:h-auto 2xl:w-11/12 2xl:h-auto drop-shadow-2xl"
           />
         </div>
         <div className="flex flex-col space-y-4 md:items-start md:text-left md:space-y-4">

@@ -31,11 +31,12 @@ const page = () => {
             }
           />
           <SkillCard
-            iconSrc={"/Skills/Csharp_Logo.png"}
+            iconSrc={"/Skills/mysql_logo.svg"}
             text={
-              "If I have to, I will. That is my outlook on writing C#. Although it is very similar to java, the errors I am thrown look nothing like Java. Still, I recognize that C# is a very powerful language and it boasts many opportunities."
+              "Of the many Database Management Systems in the market, I have found MySQL to be the most agreeable and useable of them all. I used to have difficulty with databases, but the dolphin helped me overcome my fear."
             }
           />
+
           <SkillCard
             iconSrc={"/Skills/javascriptIcon.png"}
             text={
@@ -73,13 +74,13 @@ const page = () => {
           <SkillCard
             iconSrc={"/Skills/tailwindcss_logo.svg"}
             text={
-              "Althouhg writing thousands of lines of CSS is great, I personally prefer to use a CSS Library such as Tailwind. Thanks to Libraries like Tailwind, I can quickly create quality and responsive layouts."
+              "Although writing thousands of lines of CSS is great, I personally prefer to use a CSS Library such as Tailwind. Thanks to Libraries like Tailwind, I can quickly create quality and responsive layouts."
             }
           />
           <SkillCard
             iconSrc={"/Skills/icons8-watermelon-100.png"}
             text={
-              "Selenium. That is what this card represents. But since Seleniums logo is terrible, here is a melon slice. When I first began programming, a topic that greatly interested me was automation, and selenuim does just that."
+              "Selenium. That is what this card represents. But since the Selenium logo is terrible, here is a melon slice. When I first began programming, a topic that greatly interested me was automation, and selenuim does just that."
             }
           />
           <SkillCard
@@ -89,9 +90,9 @@ const page = () => {
             }
           />
           <SkillCard
-            iconSrc={"/Skills/mysql_logo.svg"}
+            iconSrc={"/Skills/Csharp_Logo.png"}
             text={
-              "Of the many Database Management Systems in the market, I have found MySQL to be the most agreeable and useable of them all. I used to have difficulty with databases, but the dolphin helped me overcome my fear."
+              "If I have to, I will. That is my outlook on writing C#. Although it is very similar to java, the errors I am thrown look nothing like Java. Still, I recognize that C# is a very powerful language and it boasts many opportunities."
             }
           />
         </div>
