@@ -33,7 +33,7 @@ const page = () => {
           <SkillCard
             iconSrc={"/Skills/mysql_logo.svg"}
             text={
-              "Of the many Database Management Systems in the market, I have found MySQL to be the most agreeable and useable of them all. I used to have difficulty with databases, but the dolphin helped me overcome my fear."
+              "Of the many Database Management Systems in the market, I have found MySQL to be the most agreeable and useable of them all. I used to have dislike working with databases, but the dolphin helped me overcome this difficulty."
             }
           />
 
@@ -54,7 +54,7 @@ const page = () => {
           <SkillCard
             iconSrc={"/Skills/flask.svg"}
             text={
-              "Flask is great, not because it is a highly-capable microframework with extensive customization and capabilities written in an easy-to-use language. But because it sounds like my last name."
+              "Flask is great, not because it is a highly-capable microframework with extensive customization and capabilities written in an easy-to-use language, but because it sounds like my last name."
             }
           />
           <SkillCard
@@ -86,7 +86,7 @@ const page = () => {
           <SkillCard
             iconSrc={"/Skills/next-js.svg"}
             text={
-              "While React is my Favorite Javascript Framework, Next is my Favorite React Framework. Where React falls short, Next leaps high, I guess 🤷."
+              "While React is my Favorite Javascript Framework, Next is my Favorite React Framework. Where React falls short, Next saves the day."
             }
           />
           <SkillCard

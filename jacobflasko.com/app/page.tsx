@@ -75,17 +75,17 @@ const page = () => {
 
       {/*Second Section */}
       <section className="w-full h-screen bg-gray-50 snap-center flex flex-col-reverse justify-center items-center space-y-8 md:flex-row md:space-x-48 ">
-        <div className="flex justify-center items-center h-auto w-1/2 xl:w-1/4">
+        <div className="flex justify-center items-center h-auto w-2/3 xl:w-5/12 pt-10">
           <Image
-            src={"/Home/personalHeadshot.png"}
+            src={"/Home/programmer_room.svg"}
             alt={"Programmer At Work"}
             width={600}
             height={600}
-            className="pt-10 w-full h-auto md:w-3/4 md:h-auto lg:w-1/2 lg:h-auto 2xl:w-11/12 2xl:h-auto drop-shadow-2xl"
+            className="pt-10 w-full h-auto  md:w-3/4 md:h-auto lg:w-2/3 lg:h-auto 2xl:w-11/12 2xl:h-auto p-4 shadow-2xl"
           />
         </div>
         <div className="flex flex-col space-y-4 md:items-start md:text-left md:space-y-4">
-          <h1 className="text-3xl md:text-5xl">Hi, Im Jacob</h1>
+          <h1 className="text-3xl md:text-5xl">Hi, I&#39;m Jacob</h1>
           <p className="text-sm md:text-xl">
             I am a software developer based in{" "}
             <a
