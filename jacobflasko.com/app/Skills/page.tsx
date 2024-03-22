@@ -17,7 +17,7 @@ const page = () => {
       <Navbar />
       <section className="flex-grow flex flex-col items-center space-y-2">
         <SkillsHeader />
-        <div className="flex flex-wrap justify-around w-full pt-10">
+        <div className="flex flex-wrap justify-around w-full pt-8 xl:pt-10 ">
           <SkillCard
             iconSrc={"/Skills/java_icon.png"}
             text={
